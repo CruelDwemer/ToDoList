@@ -1,0 +1,36 @@
+<div class="container">
+    <form [formGroup]="taskForm">
+        <header>
+            <div class = buttons>
+                <div class="back"> 
+                    <button type="button" (click)="back()">&larr;</button>
+                </div>
+                <div class="remove">
+                    <button type="button" (click)="remove()">&times;</button>
+                </div>
+            </div>
+            <div class="name">
+                <input type="text" formControlName="title">
+                
+            </div>            
+        </header>
+        <section class="status">{{status}}</section>
+        <section class="description">
+            <textarea formControlName="description"></textarea>
+        </section>
+        <section class="importance">
+            <button class="extra-important" (click)="setExtraImportant()"  [class.selected]="model.isExtraImportant"></button> 
+            <button class="important" (click)="setImportant()" [class.selected]="model.isImportant"></button>
+            <button class="regular" (click)="setRegular()" [class.selected]="model.isRegular"></button>
+            {{importance}}         
+        </section>    
+        <section class="date">
+            <input type="date" formControlName="date">
+            <input type="time" formControlName="time">
+        </section> 
+        <footer>
+            <button type="button" (click)="save()">SAVE</button>
+            <button type="button" (click)="cancel()">CANCEL</button>
+        </footer>
+    </form>
+</div>

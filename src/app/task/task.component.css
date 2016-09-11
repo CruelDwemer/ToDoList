@@ -1,0 +1,65 @@
+.buttons {
+    display:flex;
+    justify-content:space-between;
+}
+.container {
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    background-color:grey;
+}
+.back button {
+    margin: 10px;
+    width:60px;
+    height:25px;
+    border-radius:10px;
+    background-color:silver;
+}
+.name {
+    margin: 10px;
+}
+.remove button {
+    margin: 10px;
+    width:60px;
+    height:25px;
+    border-radius:10px;
+    background-color:silver;
+}
+.status {
+    margin: 10px;
+    color: silver;
+}
+.description {
+    margin: 10px;
+}
+.importance {
+    color: silver;
+}
+.importance button {
+    margin: 10px;
+    width:20px;
+    height:20px;
+    border-radius:10px;   
+}
+.extra-important {
+    background-color:red;
+    margin: 10px;
+}
+.important {
+    background-color:orange;
+    margin: 10px;
+}
+.regular {
+    background-color:blue;
+    margin: 10px;
+}
+.date {
+    margin: 10px;
+}
+footer button {
+    margin: 10px;
+    width:80px;
+    height:25px;
+    border-radius:10px;
+    background-color:silver;
+}

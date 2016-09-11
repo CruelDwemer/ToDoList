@@ -1,0 +1,67 @@
+.container {
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    background-color:grey;
+    padding: 10px;
+}
+h1 {
+    color: silver;
+    margin: 10px;
+}
+.all-task {
+    color: silver;
+    margin: 10px;
+}
+
+.importance button {
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    margin: 10px;   
+}
+.extra-important {
+    background-color:red;
+    margin: 10px;
+}
+.important {
+    background-color:orange;
+    margin: 10px;
+}
+.regular {
+    background-color:blue;
+    margin: 10px;
+}
+.all {
+    background-color:#444;
+    margin: 10px;
+}
+.task-done {}
+.task-importance {
+    margin: 10px;
+}
+.task-delete button{
+    margin: 10px;
+    width:60px;
+    height:25px;
+    border-radius:10px;
+    background-color:silver;
+}
+.task-container {
+    color: grey;
+    margin: 10px;
+    align: center;
+    background-color: silver;
+    display:flex;
+    justify-content:space-between;
+}
+.add button {
+    margin: 10px;
+    width:60px;
+    height:25px;
+    border-radius:10px;
+    background-color:silver;
+}
+.list ul {
+    padding:0;
+}
