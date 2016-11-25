@@ -1,7 +1,7 @@
 # Configuration
 
-NodeJS: 6.5.0
-npm: 3.2.0
+NodeJS: 6.5.0  
+npm: 3.2.0  
 angular-cli: 1.0.0-beta.11-webpack.8
 
 # TstNg
